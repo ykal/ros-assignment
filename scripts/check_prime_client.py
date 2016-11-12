@@ -20,7 +20,7 @@ if __name__ == "__main__":
     argv = rospy.myargv()
 
     if (len(argv) < 2) :
-        print ("Usage : \n \tInsert integers as Separeted By Space")
+        print ("Usage : \n \tInsert integers Separeted By Space")
         sys.exit()
 
     args = []
