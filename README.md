@@ -18,7 +18,8 @@ N.B - for starting 10 secs it doesn't publish, but after that it
 ```
 
 
-#For Question #2 thier is only one node 
+#For Question #2 
+Thier is only one node 
 Usig the GUI you can control the movments of x and y also its 
 angular movments.
 Also can change the background of the turtlesim_node.
@@ -30,6 +31,14 @@ N.B - sorry i didn't prepate launch file, so start turtlesim_node
   - ./scripts/turtlesim_controller.py
 ```
 
+#For Question #3 
+Thier is only one node found in
+
+```
+  - ./scripts/fractal.py
+```
+N.B - sorry i didn't prepate launch file, so start turtlesim_node
+      separetly.
 
 #For Question #4
 
@@ -46,16 +55,20 @@ N.B - sorry i didn't prepate launch file, so start turtlesim_node
         ./scripts/turtle_server.py
     ```
 
-#For Question #5 thier is client node and server node. 
+#For Question #5 
+Thier is client node and server node. 
 Start the Server node first , then start the client node and
 give arguments of integers separeted by space.
+
+Example
 ```
     rosrun check_prime_client.py 4 5 6
 ```
 
+Nodes are found in
 ```
     - ./scripts/check_prime_client.py
     - ./scripts/check_prime_server.py
 ```
 
-N.B -   I didn't finish the other 1 question. I will submit it ASA possible.   
+ 
